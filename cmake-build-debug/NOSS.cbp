@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NOSS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NOSS.elf">
+				<Option output="C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/NOSS.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F303xE"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Inc"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 NOSS.elf"/>
+					<CompileFile command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NOSS.elf/fast">
+				<Option output="C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/NOSS.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F303xE"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Inc"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 NOSS.elf/fast"/>
+					<CompileFile command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/kazak/CLionProjects/NOSS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xe.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_exti.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/STM32F303RETx_FLASH.ld">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/gpio.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/i2c.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/main.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/mpu6050.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/stepper.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/stm32f3xx_hal_msp.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/stm32f3xx_it.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/syscalls.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/system_stm32f3xx.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/tim.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/Src/usart.c">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/startup/startup_stm32f303xe.s">
+			<Option target="NOSS.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/kazak/CLionProjects/NOSS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
